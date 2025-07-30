@@ -1,0 +1,187 @@
+div.main{
+  font-family: Cursive;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #00FF00;
+  border: 3px solid #00FF00;
+}
+
+h1{
+  font-size: 60px;
+}
+
+p{
+  text-align: center;
+  font-family: fantasy;
+}
+
+div.image{
+  position: absolute;
+  left: 41.5%;
+  bottom: 67%;
+}
+
+ .image2 p{
+  bottom: 40%;
+  left: 30.5%;
+  position: absolute;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+ .image2 p2{
+  text-align: center;
+  font-family: fantasy;
+  bottom: 27%;
+  left: 32.5%;
+  position: absolute;
+  font-size: 20px
+}
+
+ .image2 p3{
+  bottom: 15%;
+  left: 32.5%;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  font-family: fantasy;
+}
+
+ .image2 p4{
+  bottom: 5%;
+  left: 32.5%;
+  position: absolute;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+ .image2 p5{
+  text-align: center;
+  margin-right: 275px;
+  margin-left: 225px;
+  font-family: fantasy;
+  top: 105%;
+  left: 12.5%;
+  position: absolute;
+  font-size: 40px;
+}
+
+#gold{
+  position: absolute;
+  top: 150%;
+  right: 3%;
+}
+
+#bling{
+  text-align: center;
+  margin-right: 275px;
+  margin-left: 225px;
+  font-family: fantasy;
+  top: 185%;
+  left: 15.5%;
+  position: absolute;
+  font-size: 20px;
+}
+
+#Pic{
+  position: absolute;
+  left: 77%;
+  top: 60%;
+}
+
+ .image2 p6{
+  bottom: 38%;
+  left: 30.5%;
+  position: absolute;
+  font-size: 16px;
+  font-family: fantasy;
+}
+
+ .image2 input{
+  position: absolute;
+  bottom: 43%;
+  right: 20%;
+  font-size: 22px;
+}
+
+#select1{
+  position: absolute;
+  bottom: 21%;
+  right: 35.625%;
+  font-size: 20px;
+}
+
+#select2{
+  position: absolute;
+  bottom: 11%;
+  right: 46.85%;
+  font-size: 20px;
+}
+
+#select3{
+  position: absolute;
+  bottom: 1%;
+  right: 46%;
+  font-size: 20px;
+}
+
+ .image2 select{
+  position: absolute;
+  bottom: 21%;
+  right: 50%;
+  font-size: 22px;
+}
+
+ .one button{
+  position: absolute;
+  bottom: 21%;
+  right: 27%;
+  font-size: 28px;
+}
+
+ .two button{
+  position: absolute;
+  bottom: 12%;
+  right: 27%;
+  font-size: 28px;
+}
+
+ .three button{
+  position: absolute;
+  bottom: 1%;
+  right: 27%;
+  font-size: 28px;
+}
+
+a{
+  color: #FF0000;
+}
+div.Me{
+  left: 29.5%;
+  top: 70%;
+  position: absolute;
+}
+
+div.Me2{
+  font-size: 30px;
+  font-family: fantasy;
+  text-align: center;
+  left: 22.5%;
+  top: 90%;
+  position: absolute;
+}
+
+div.nav{
+  width: 180px;
+  height: 100%;
+  top: 0px;
+  text-align: Left;
+  font-family: Fantasy;
+  font-size: 30;
+  background-color: #191970;
+  color: #FF0000;
+  margin-right: 700px;
+  border: 6px solid #191970;
+  padding-top: 20px;
+  position: fixed;
+}

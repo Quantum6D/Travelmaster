@@ -1,0 +1,108 @@
+div.main{
+  font-family: Cursive;
+  color: #FFFFFF;
+  background-color: #00FF00;
+  border: 3px solid #00FF00;
+}
+
+h1{
+  font-size: 60px;
+}
+
+p{
+  text-align: center;
+  font-family: fantasy;
+}
+
+div.image{
+  text-align: center;
+  position: absolute;
+  left: 40.5%;
+  bottom: 67%;
+}
+
+.image2 p2{
+  text-align: center;
+  font-family: fantasy;
+  bottom: 35%;
+  left: 20.5%;
+  position: absolute;
+  font-size: 80px
+}
+
+#gold{
+  position: absolute;
+  top: 110%;
+  left: 135%;
+}
+
+#bling{
+  text-align: center;
+  font-family: fantasy;
+  top: 165%;
+  Left: -155.5%;
+  right: -55.5%;
+  position: absolute;
+  font-size: 20px;
+}
+
+ .image2 p{
+  bottom: 40%;
+  left: 35.5%;
+  position: absolute;
+  font-size: 20px
+}
+
+ .image2 input{
+  position: absolute;
+  bottom: 43%;
+  right: 20%;
+  font-size: 22px;
+}
+
+ .image2 gcse:search{
+  position: absolute;
+  bottom: 43%;
+  right: 50%;
+  font-size: 22px;
+}
+
+ .image2 button{
+  position: absolute;
+  bottom: 43.027%;
+  right: 26%;
+  font-size: 22px;
+}
+
+a{
+  color: #FF0000;
+}
+div.Me{
+  left: 29.5%;
+  top: 70%;
+  position: absolute;
+}
+
+div.Me2{
+  font-family: fantasy;
+  text-align: center;
+  left: 44.5%;
+  top: 90%;
+  position: absolute;
+  Padding-top: 275px;
+}
+
+div.nav{
+  width: 180px;
+  height: 100%;
+  top: 0px;
+  text-align: Left;
+  font-family: Fantasy;
+  font-size: 30;
+  background-color: #191970;
+  color: #FF0000;
+  margin-right: 700px;
+  border: 6px solid #191970;
+  padding-top: 20px;
+  position: fixed;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travelmaster-Best Vacation For Me</title>
+<link rel="stylesheet" type="text/css" href="Travelmaster-BestVacationForMe.css" />
+</head>
+<body>
+<div class="main">
+<img src="TravelmasterPhoto.jpg" width="1425" height="300">
+<div class="image">
+<h1>Best Vacation For Me</h1>
+<h2>What everyone needs to consider</h2>
+</div>
+</div>
+<div class="nav">
+<ul>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-Real.html">Home</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-About.html">About</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-BookATrip.html">Book A Trip</a> </li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-BrowseHotels.html">Browse Hotels</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-BestVacationForMe.html">Best Vacation For Me</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-FindBeachesNearMe.html">Find Beaches Near Me</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-RateUs!.html">Rate Us!</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-ContactPage.html">Contact Page</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-FAQ.html">FAQ</a></li>
+<li><a href="///Users/jasongee/Desktop/Travelmaster-TravelmasterRewards.html">Travelmaster Rewards</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-HelpCenter.html">Help Center</a></li>
+</ul>
+</div>
+<div class="image2">
+<p>We'll help you find your dream vacation with this self-evaluation quiz:</p>
+<p6>(See below after pressing submit.)</p6>
+<p2>1. What would the scenery around you look like?</p2>
+<select id="select1" value="assignValue()">
+<option value="busy">Busy</option>
+<option value="peaceful">Peaceful</option>
+<option value="exciting">Exciting</option>
+<option value="fun">Fun</option>
+<option value="anything">All of the above</option>
+<option value="nothing">None of the above</option>
+</select>
+<p3>2. In what environment do you feel the most comfortable?</p3>
+<select id="select2" value="assignValue()">
+<option value="a beach resort">Beach</option>
+<option value="Vegas!">Vegas!</option>
+<option value="the wilderness">Wilderness</option>
+<option value="any place">All of the above</option>
+<option value="no place">None of the above</option>
+</select>
+<p4>3. Where would you like to stay?</p4>
+<select id="select3" value="assignValue()">
+<option value="at a hotel">Hotel</option>
+<option value="at a mansion">Mansion</option>
+<option value="at a farmhouse">Farmhouse</option>
+<option value="anywhere!">Somewhere that has a bed</option>
+<option value="nowhere">Not comfortable leaving</option>
+</select>
+<button id="2bb" onclick="assignValue()"><i class="material-icons">&phi;</i></button>
+<button id="1bb" onclick="getResult()"><i class="material-icons">Submit: &phi;</i></button>
+<img src="Screen Shot 2019-05-12 at 5.23.44 PM.png" id="Pic"width="200" height="200">
+<p5 id="user"></p5>
+<img id="gold" src="Screen Shot 2019-05-12 at 6.11.48 PM.png" width="400" height="300">
+<p7 id="bling">Look at all of these savings!  Switch to Travelmaster <a href="file:///Users/jasongee/Desktop/Travelmaster-TravelmasterRewards.html">NOW!</a></p7>
+<script>
+function assignValue() {
+  document.getElementById("select1").value = option.value
+  document.getElementById("select2").value = option.value
+  document.getElementById("select3").value = option.value
+}
+function getResult() {
+  var x = "You want it to be " + document.getElementById("select1").value;
+  var y = ", you want it located in " + document.getElementById("select2").value;
+  var z = ", and you want to stay " + document.getElementById("select3").value + "!";
+  document.getElementById("user").innerHTML = x + y + z;
+}
+</script>
+</div>
+<img src="Screen Shot 2019-03-06 at 1.59.51 PM.jpg" width="1425" height="1200">
+<div class="Me">
+</div>
+</body>
+</html>

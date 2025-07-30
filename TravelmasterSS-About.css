@@ -1,0 +1,72 @@
+div.main{
+  font-family: Cursive;
+  color: #FFFFFF;
+  text-align: Center;
+  background-color: #00FF00;
+  border: 3px solid #00FF00;
+}
+
+h1{
+  font-size: 60px;
+}
+
+p{
+  text-align: center;
+  font-family: fantasy;
+}
+
+div.image{
+  position: absolute;
+  left: 37.5%;
+  bottom: 67%;
+}
+
+h3{
+  font-family: cursive;
+  bottom: 60%;
+  left: 34%;
+  Right: 7%;
+  position: absolute;
+  font-size: 40px
+}
+
+div.image2{
+  bottom: 25%;
+  left: 17.5%;
+  Right: 7%;
+  position: absolute;
+  font-size: 20px
+}
+
+a{
+  color: #FF0000;
+}
+div.Me{
+  left: 33.5%;
+  top: 75%;
+  position: absolute;
+}
+
+div.Me2{
+  font-family: fantasy;
+  text-align: center;
+  left: 47.5%;
+  top: 90%;
+  position: absolute;
+  Padding-top: 295px;
+}
+
+div.nav{
+  width: 180px;
+  height: 100%;
+  top: 0px;
+  text-align: Left;
+  font-family: Fantasy;
+  font-size: 30;
+  background-color: #191970;
+  color: #FF0000;
+  margin-right: 700px;
+  border: 6px solid #191970;
+  padding-top: 20px;
+  position: fixed;
+}

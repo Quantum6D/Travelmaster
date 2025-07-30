@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travelmaster-About</title>
+<link rel="stylesheet" type="text/css" href="TravelmasterSS.css" />
+</head>
+<body>
+<h1>About Travelmaster</h1>
+<h2>Where all the magic happens<h2>
+<body>
+<div class="main">
+<img src="TravelmasterPhoto.jpg" width="1425" height="300">
+<div class="image">
+</div>
+</div>
+<div class="nav">
+<ul>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-Real.html">Home</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-About.html">About</a></li>
+<li><a href="#">Book A Trip</a></li>
+<li><a href="#">Browse Hotels</a></li>
+<li><a href="#">Best Vacation For Me</a></li>
+<li><a href="#">Find Beaches Near Me</a></li>
+<li><a href="#">Rate Us!</a></li>
+<li><a href="#">Contact Page</a></li>
+<li><a href="#">FAQ</a></li>
+<li><a href="#">Help Center</a></li>
+</ul>
+</div>
+<div class="image2">
+<p>Discover all new regions around the world from the Galapagos Islands to the bustling city of Paris!</p>
+</div>
+<div class="Me2">
+<p>"YESSS!</p>
+<p>This site makes me look happy!</p>
+<p>5-star!"</p>
+<p>-Jason Gee</p>
+</div>
+<img src="Screen Shot 2019-03-06 at 1.59.51 PM.jpg" width="1425" height="800">
+<div class="Me">
+<img src="Me-Travelmaster.jpg" width="612" height="400">
+</div>
+</body>
+</html>
+</body>
+</html>

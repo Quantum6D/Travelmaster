@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travelmaster-FAQ</title>
+<link rel="stylesheet" type="text/css" href="TravelmasterSS-FAQ.css" />
+</head>
+<body>
+<div class="main">
+<img src="TravelmasterPhoto.jpg" width="1425" height="300">
+<div class="image">
+<h1>FAQ</h1>
+<h2>Got a question? Here's the answer!</h2>
+</div>
+</div>
+<div class="nav">
+<ul>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-Real.html">Home</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-About.html">About</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-BookATrip.html">Book A Trip</a> </li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-BrowseHotels.html">Browse Hotels</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-BestVacationForMe.html">Best Vacation For Me</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-FindBeachesNearMe.html">Find Beaches Near Me</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-RateUs!.html">Rate Us!</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-ContactPage.html">Contact Page</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-FAQ.html">FAQ</a></li>
+<li><a href="///Users/jasongee/Desktop/Travelmaster-TravelmasterRewards.html">Travelmaster Rewards</a></li>
+<li><a href="file:///Users/jasongee/Desktop/Travelmaster-HelpCenter.html">Help Center</a></li>
+</ul>
+</div>
+<div class="image2">
+<p>Please select your question from any of the drop down menus below:</p>
+<p6>(See below after pressing ask.)</p6>
+<p2>Questions about Travelmaster:</p2>
+<select id="select1" value="assignValue()">
+<option value="When you search for something using Travelmaster, we are not responsible for the information that is shown.  The only thing that we do is help you find these recreational services more easily, without taking credit for them.">Are you responsible for any other services you provide?</option>
+<option value="Currently, Travelmaster is the only website made by us.  There may be other websites later on in the future, but it is not guaranteed.">Do you have any other facilities?</option>
+<option value="The only thing that we do is help you find your dream vacation that other companies provide for you.">What is the purpose of Travelmaster?</option>
+<option value="The creator of this webpage is Jason Gee Jr.  If he ever says 'we' instead of 'I', it is simply to make this website sound more formal.">Who is the original creator of Travelmaster?</option>
+</select>
+<p3>Questions about the service:</p3>
+<select id="select2" value="assignValue()">
+<option value="So far, our rating is probably around 4.5 stars.">What is the average rating?</option>
+<option value="We have a 100% satisfaction guarantee.  If you don't like the website, you will get refunded for everything you have purchased using Travelmaster.">What is your satisfaction guarantee?</option>
+<option value="Usually, people get the results that they want right away.">How accurate are your searches?</option>
+</select>
+<p4>Anything Else?</p4>
+<select id="select3" value="assignValue()">
+<option value="The most favored place would be Niagara Falls. Also, the favorite chain hotel would be Holiday Inn, and the favorite airline so far would be JetBlue.">What does Travelmaster recommend?</option>
+<option value="This website is not real.  The purpose of this site is to serve as my tech project.  Gotcha!">Is this site real?</option>
+</select>
+<div class="one">
+<button id="1bb" onclick="getResultX()"><i class="material-icons">Ask: &phi;</i></button>
+</div>
+<div class="two">
+<button id="4bb" onclick="getResultY()"><i class="material-icons">Ask: &phi;</i></button>
+</div>
+<div class="three">
+<button id="3bb" onclick="getResultZ()"><i class="material-icons">Ask: &phi;</i></button>
+</div>
+<img src="Screen Shot 2019-05-12 at 5.23.44 PM.png" id="Pic"width="200" height="200">
+<p5 id="user"></p5>
+<img id="gold" src="Screen Shot 2019-05-12 at 6.11.48 PM.png" width="400" height="300">
+<p7 id="bling">Look at all of these savings!  Switch to Travelmaster <a href="file:///Users/jasongee/Desktop/Travelmaster-TravelmasterRewards.html">NOW!</a></p7>
+<script>
+function assignValue() {
+  document.getElementById("select1").value = option.value
+  document.getElementById("select2").value = option.value
+  document.getElementById("select3").value = option.value
+}
+function getResultX() {
+  var x = document.getElementById("select1").value;
+  document.getElementById("user").innerHTML = x;
+}
+
+function getResultY() {
+  var y = document.getElementById("select2").value;
+  document.getElementById("user").innerHTML = y;
+}
+
+function getResultZ() {
+  var z = document.getElementById("select3").value;
+  document.getElementById("user").innerHTML = z;
+}
+</script>
+</div>
+<img src="Screen Shot 2019-03-06 at 1.59.51 PM.jpg" width="1425" height="1200">
+<div class="Me">
+</div>
+</body>
+</html>

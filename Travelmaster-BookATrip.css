@@ -1,0 +1,179 @@
+div.main{
+  font-family: Cursive;
+  color: #FFFFFF;
+  text-align: Center;
+  background-color: #00FF00;
+  border: 3px solid #00FF00;
+}
+
+h1{
+  font-size: 60px;
+}
+
+ .Mea p1{
+  font-size: 18px;
+  border: 4px solid #3399FF;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: fantasy;
+  top: 57%;
+  right: 15%;
+  left: 20%;
+  position: absolute;
+  background-color: #3399FF;
+}
+
+div.image{
+  position: absolute;
+  left: 42.5%;
+  bottom: 67%;
+}
+
+ .Mea p2{
+  font-size: 18px;
+  border: 4px solid #3399FF;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: fantasy;
+  top: 100%;
+  right: 15%;
+  left: 20%;
+  position: absolute;
+  background-color: #3399FF;
+}
+
+ .Mea p3{
+  font-size: 18px;
+  border: 4px solid #3399FF;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: fantasy;
+  top: 143%;
+  right: 15%;
+  left: 20%;
+  position: absolute;
+  background-color: #3399FF;
+}
+
+h3{
+  font-family: cursive;
+  bottom: 60%;
+  left: 34%;
+  Right: 7%;
+  position: absolute;
+  font-size: 40px
+}
+
+div.image2{
+  bottom: 38%;
+  Left: 0.5%;
+  Right: 14%;
+  position: absolute;
+  font-size: 20px
+}
+
+a{
+  color: #FF0000;
+}
+
+div.Me{
+  position: absolute;
+  text-align: center;
+  left: 47.5%;
+  Bottom: 4%;
+  background-color: #ffffcc;
+  font-family: times-new-roman; sans-serif;
+  font-size: 28px;
+  color: #ffcc00;
+  background-position-y: 25px;
+  transition:  0.5s;
+}
+
+div.Me2{
+  position: absolute;
+  text-align: center;
+  left: 47.125%;
+  top: 110%;
+  background-color: #d9d9d9;
+  font-family: times-new-roman; sans-serif;
+  font-size: 28px;
+  color: #a6a6a6;
+  background-position-y: 25px;
+  transition:  0.5s;
+}
+
+.Me2 a{
+  text-decoration: none;
+  transition: 0.3s;
+  overflow-x; hidden;
+  color: #a6a6a6;
+}
+
+.Me a{
+  text-decoration: none;
+  transition: 0.3s;
+  overflow-x; hidden;
+  color: #ffcc00
+}
+
+div.Me3{
+  position: absolute;
+  text-align: center;
+  left: 47.125%;
+  top: 155%;
+  background-color: #c68c53;
+  font-family: times-new-roman; sans-serif;
+  font-size: 28px;
+  color: #996633;
+  background-position-y: 25px;
+  transition:  0.5s;
+}
+
+.Me3 a{
+  text-decoration: none;
+  transition: 0.3s;
+  overflow-x; hidden;
+  color: #996633;
+}
+
+div.nav{
+  width: 180px;
+  height: 100%;
+  top: 0px;
+  text-align: Left;
+  font-family: Fantasy;
+  font-size: 30;
+  background-color: #191970;
+  color: #FF0000;
+  margin-right: 700px;
+  border: 6px solid #191970;
+  padding-top: 20px;
+  position: fixed;
+}
+
+ .Price h4{
+  font-size: 17px;
+  position: absolute;
+  left: 47.5%;
+  bottom: 6%;
+  z-index: 0;
+  background-color: #FFFFFF;
+}
+
+ .Price h5{
+  font-size: 17px;
+  position: absolute;
+  left: 47.5%;
+  top: 126%;
+  z-index: 0;
+  background-color: #FFFFFF;
+}
+
+ .Price h6{
+  font-size: 17px;
+  position: absolute;
+  left: 47.5%;
+  top: 168%;
+  z-index: 0;
+  background-color: #FFFFFF;
+}
